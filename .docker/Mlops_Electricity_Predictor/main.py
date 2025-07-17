@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from pydantic import ValidationError
 import joblib
 import pandas as pd
-from app.schema import PredictionInput
+from schema import PredictionInput
 
 app = FastAPI(
     title="Electricity Cost Prediction API",
